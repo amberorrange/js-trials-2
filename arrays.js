@@ -23,9 +23,9 @@ function everyOtherItem(items) {
 function smallestNItems(items, n) {
   // Replace this with your code
 
-  let smallestItemsList = items.sort();
+  
 
-  const smallestItemsList = items.slice(0, n);
+  const smallestItemsList = items.sort(items.slice(0, n));
 
 
 
